@@ -9,10 +9,10 @@ A compact workflow that converts GA4 exports into a single structured prompt for
 - Notes, limitations, and enhancement ideas for client-grade CRO projects  
 
 ## Quick start
-1. Open the Google Sheet template:  
-   **https://bit.ly/cro-chatgpt**
+1. Make a copy of the Google Sheet template:  
+   **(https://docs.google.com/spreadsheets/d/1Yux7iyn9afgDraGfA8R5FNODQ-1rfmzmIml4ZkxWR0k/edit)**
 
-2. Export GA4 data for the period you want to analyze and paste the values into the corresponding sheet sections (A to E).
+2. Export GA4 data for the period you want to analyze (90 days recommended) and paste the values into the corresponding sheet sections (A to E).
 
 3. The sheet automatically builds a single consolidated prompt that includes:
    - Overall metrics  
@@ -45,4 +45,5 @@ The workflow was tested using three months of GA4 demo data from the Google Merc
 A screenshot of the generated hypotheses is included in the repository.
 
 ## License
+
 MIT
